@@ -10,11 +10,11 @@ public class Factorial {
 
 		int n = (int) (Math.random() * 10);
 		int result = 1;
-		System.out.println("wert von n:" + n);
+		System.out.println("n:n arvo:" + n);
 		while (n > 1) {
 			result = result * (n - 1);
 		}
-		System.out.println("wert von n! : " + result);
+		System.out.println("Arvo n!: " + result);
 
 	}
 
